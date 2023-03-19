@@ -1,0 +1,29 @@
+.container{
+  display: flex;
+  
+  flex-direction:row;
+}
+.container div{
+ padding: 20px;
+
+}
+.child1{
+       background-color: green;
+       flex:2;
+       order: 3;
+}
+.child2{
+    background-color: yellow;
+    flex:1;
+    order: 1;
+}
+.child3{
+    background-color: pink;
+    flex:1;
+    order:2;
+}
+.child4{
+    background-color:red;
+    flex:2;
+    order: 2;
+}
